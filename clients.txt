@@ -1,0 +1,2 @@
+client num 1:l'id du client:01,Nom:aziz,Prenom:assia,cin:9998,l'adresse:agadir,numero de telephone:0653947775
+
