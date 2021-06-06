@@ -1,0 +1,46 @@
+
+Bonjour Professeur!
+(Remarque: on a une petit preblem dans La fonction de location des voitures et suprission d'un element dans un fichier., et on a consultent un autre etudiant au niveau de master.)
+les fonctions de ce projet sont presente comme la suite:
+
+fonct1 represente Menu principal.
+fonct2 represente l'organisation de location du Voiture.
+fonct3 represente l'organisation de la Visualisite de Contrat.
+fonct4 represente comment Louer une Voiture.
+fonct5 represente comment retourner une voiture.
+fonct6 represente l'organisation de modification du contrat.
+fonct7 represente la vestion voiture.
+fonct8 represente la liste la voiture.
+fonct9 represente l'ajoute de voiture.
+fonct10 represente l'organisation de modification du voiture.
+fonct11 represente la supprision de voiture.
+fonct12 represente gestion client.
+fonct13 represente la liste client.
+fonct15 represente l'ajouter client.
+fonct16 represente comment modifier client.
+fonct17 represente la supprition de client.
+
+le fonct1 represente le menu principale, Permet de faire le choix entre : 
+1) accéder au menu de gestion des locations.
+2) accéder au menu de gestion de la liste des voitures enregistrées.
+3) accéder au menu de gestion des clients.
+4) quitter l’application.
+
+La Location d'une Voiture 
+
+
+la fonct7 le menu de choix qui Permet de faire le choix entre : 
+1) afficher la liste des voitures déjà enregistrées dans le fichier « Voitures ». 
+2) ajouter une nouvelle voiture dans le fichier « Voitures ».
+3) modifier les informations concernant une voiture déjà enregistrée.
+4) de supprimer une voiture du fichier « Voitures » et 
+5) retourner au menu principal
+
+Permet de faire le choix entre : 
+1) visualiser les informations contenues dans un contrat à partir de son numéro (l’attribut numContrat).
+2) louer une nouvelle voiture, ce qui permettra d’abord de demander au client de saisir ses informations (nom, prénom) et les informations sur la voiture qu’il souhaite louer. Deux vérifications seront ensuite effectuées. La première est la vérification du client et de la voiture, si ils sont déjà enregistrés dans les fichiers « Clients » et « Voitures » (s’ils ne sont pas disponibles, un message sera affiché demandant au client d’enregistrer ses propres informations à travers le menu « Gestion clients » ou bien un message pour l’informer que la voiture demandée n’existe pas). La deuxième vérification concerne la disponibilité de la voiture demandée. Il s’agit de vérifier si elle n’a pas été déjà louée par un autre client. Si c’est le cas, un message sera affiché informant le client que la voiture n’est pas disponible, sinon la voiture sera louée, ce qui implique d’abord de changer la valeur de l’attribut « EnLocation » dans la structure  « Voiture », de « Non » à « Oui » et aussi de créer un nouveau contrat de location en demandant au client de saisir les informations nécessaires selon la structure « contartLocation »; 2) retourner une 
+voiture déjà louée, ce qui implique de changer la valeur de l’attribut « EnLocation » dans la structure « Voiture », de « Oui » à « Non » et de supprimer le contrat de location. 
+3) modifier le contrat de location si le client souhaite modifier les informations sur le contrat tel que la date de reour.
+4) supprimer un contrat si la voiture louée est rendue et 5) retourner au menu principal. 
+
+
